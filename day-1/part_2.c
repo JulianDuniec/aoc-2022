@@ -4,7 +4,7 @@
 
 int main(int argc, char **arv) {
   char *line = NULL;
-  size_t lineLengthLimit = 10;
+  size_t lineLengthLimit = 0;
   int numCharsRead;
   int currentSum = 0;
   int top1 = 0, top2 = 0, top3 = 0;
