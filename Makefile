@@ -17,3 +17,4 @@ clean:
 
 run: build
 	cat ./inputs/day-$(DAY)/$(INPUT) | ./$(OUT)
+
